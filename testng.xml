@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.og/testng-1.0.dtd" >
+
+<suite name="Skillo Project Vasil" verbose="1">
+    <test name="Tests">
+        <classes>
+            <class name="WebTesting.LoginTest"></class>
+            <class name="WebTesting.LogoutTest"></class>
+            <class name="WebTesting.PostTests"></class>
+            <class name="WebTesting.ProfileInfoTest"></class>
+            <class name="WebTesting.ProfilePictureTest"></class>
+        </classes>
+    </test>
+</suite>
